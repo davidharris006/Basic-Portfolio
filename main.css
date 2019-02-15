@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+div {
+    width: 800px;
+    background: lightgreen;
+    text-align: center;
+    margin: 0 auto;
+}
+p{
+    padding: 0px 0px 0px 0px;
+}
+h2{
+    
+}
