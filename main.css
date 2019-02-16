@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient( to bottom right, #1a2a6c, #b21f1f, #fdbb2d) fixed;
+    background: wheat;
     text-align: left;
     height: 100%;
 }
@@ -9,39 +9,37 @@ img {
     float: left;
 }
 div {
-    width: 800px;
-    background: linear-gradient( to bottom left, #fdbb2d, #b21f1f, #1a2a6c) ;
+    width: 1000px;
+    height: 600px;
+    background: white ;
     text-align: left;
     margin: 0 auto;
-    border-radius: 10px;
+    border: 1px solid;
     border-color: black;
     padding: 1px 10px 1px 10px;
 }
-p{
-    padding: 0px 0px 0px 0px;
-    color: white;
+p {
+
+    color: #000b4f;
 }
-h1{
-    color:white;
-    text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
+h1 {
+    color: #000b4f;
+   
+  
 }
-h2{
-    color:white;
-    text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-    float: left;
+h2 {
+    color:#000b4f;
 }
-.box-header{
+.aboutme-header {
+    width: 12%;
+    padding: 0px 5px 0px 5px;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+.box-header {
     width: 300px;
     height: 75px;
-    background: lightgreen;
+    background: white;
     text-align: center;
 
 }
