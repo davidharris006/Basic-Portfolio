@@ -2,6 +2,12 @@ body {
     background: radial-gradient(circle, rgb(85, 3, 85) 70%, rgb(221, 151, 221));;
     text-align: left;
     height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(126, 0, 126);
+    background-image: url("https://wallpapertag.com/wallpaper/full/7/5/5/273402-forest-background-1920x1200-for-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 img {
     height: 100px;
@@ -11,39 +17,39 @@ img {
 div {
     width: 1000px;
     height: 600px;
-    background: white ;
     text-align: left;
     margin: 0 auto;
-    border: 1px solid black;
+    
     padding: 1px 10px 1px 10px;
 }
 p {
 
-    color: #000b4f;
+    
 }
 h1 {
-    color: #000b4f;
-    position: relative;
+    
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -100%);
+    font-size: 50px;
+    padding: 0 0 15px 0;
    
   
 }
 h2 {
-    color:#000b4f;
-    border: 2px solid black;
+   
     font-size: 30px;
 }
 .aboutme-header {
-    width: 150px;
+    width: 180px;
 
     margin-left: 10px;
     height: 50px;
 }
 .box-header {
     width: 300px;
-    height: 50px;
+    height: auto;
     text-align: center;
     padding: 10px 10px 10px 10px;
    justify-content: center;
@@ -60,26 +66,47 @@ img {
     top: 0;
     left: 0;
     text-align: center;
+    
 }
 
 #contact-link {
     width: 60px;
     height: 25px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 85px;
     float: left;
     text-align: center;
+   
 }
 #bio-link {
     width: 60px;
     height: 25px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 170px;
     float: left;
-    margin: 0 auto;
+    
 }
 #index-section {
-    margin: 20px auto;
+    margin: 80px auto;
+    background-color: rgb(183, 241, 183, .60);
+}
+.topbar {
+    width: 100%;
+    background-color: rgb(235,194,4);
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+.email-form {
+    width: 85%;
+    height: 300px;
+   
+}
+.form-center {
+    margin: 10px 50px 0px 50px;
 }
