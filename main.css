@@ -9,23 +9,16 @@ body {
     background-size: cover;
 
 }
-img {
+#bioimg {
     height: 100px;
     width: 100px;
     float: left;
-}
-div {
-    width: 1000px;
-    height: 600px;
-    text-align: left;
-    margin: 0 auto;
-    
-    padding: 1px 10px 1px 10px;
+    padding: 5px;
 }
 p {
-
-    
+    padding: 5px 5px 5px 10px;
 }
+
 h1 {
     
     position: absolute;
@@ -38,14 +31,14 @@ h1 {
   
 }
 h2 {
-   
+   margin: 0 0 0 10px;
     font-size: 30px;
 }
 .aboutme-header {
-    width: 180px;
-
-    margin-left: 10px;
+    width: 190px; 
     height: 50px;
+    top: 10px;
+    position: relative;
 }
 .box-header {
     width: 300px;
@@ -56,9 +49,8 @@ h2 {
    align-items: center;
 
 }
-img {
-    padding: 5px;
-}
+
+    
 #portfolio-link {
     width: 60px;
     height: 25px;
@@ -88,10 +80,20 @@ img {
     float: left;
     
 }
-#index-section {
+.main-box {
+    width: 1000px;
+    height: 600px;
     margin: 80px auto;
     background-color: rgb(183, 241, 183, .60);
 }
+#portfolio-box {
+    width: 600px;
+    height:500px;
+    background-color: rgb(183, 241, 183, .60);
+    margin: 100px auto;
+
+}
+
 .topbar {
     width: 100%;
     background-color: rgb(235,194,4);
@@ -109,4 +111,29 @@ img {
 }
 .form-center {
     margin: 10px 50px 0px 50px;
+}
+
+.div-bars1 {
+    width: 130px;
+    height: 20px;
+    background-color: rgb(235,194,4);
+    position: absolute;
+    top: 220px;
+    text-align: center;
+    margin:0 0 0 50px;
+    
+}
+.img-bar1 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: left;
+    margin: 40px 0 0 40px;
+}
+
+.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+
 }
